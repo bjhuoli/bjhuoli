@@ -1,0 +1,29 @@
+# Beijing Huoli Website - robots.txt
+# Last Updated: April 3, 2026
+
+User-agent: *
+Allow: /
+Allow: /*.html
+Allow: /css/
+Allow: /js/
+Allow: /svg/
+Disallow: /private/
+
+# Specific search engine rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /svg/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay to be respectful of server resources
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://bjhuoli.com/sitemap.xml
